@@ -1,0 +1,27 @@
+{
+  "name": "cloneable-readable-error-bug",
+  "version": "0.0.0",
+  "description": "Reproduction of cloneable-readable surfacing errors after stream is complete",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phated/cloneable-readable-error-bug.git"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phated/cloneable-readable-error-bug/issues"
+  },
+  "homepage": "https://github.com/phated/cloneable-readable-error-bug#readme",
+  "dependencies": {
+    "cloneable-readable": "^2.0.0",
+    "concat-stream": "^2.0.0",
+    "from2": "^2.3.0",
+    "readable-stream": "^3.3.0"
+  }
+}
